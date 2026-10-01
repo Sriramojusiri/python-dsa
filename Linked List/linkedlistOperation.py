@@ -34,10 +34,6 @@ ll.delfirst()
 ll.traverse()
 ll.delLast()
 ll.traverse()
-
-
-
-
 class Node:
   def __init__(self,data):
     self.data=data
@@ -65,11 +61,6 @@ class Linkedlist:
   def delLast(self):
     self.head.next.next.next=None 
     cn=self.head
-    # if cn.Next is None:
-    #   cn=None
-    # while cn.Next.Next is not None:
-    #   cn=cn.Next
-    # cn.Next=None     
 ll=Linkedlist()
 ll.add(10)
 ll.add(20)
@@ -81,17 +72,10 @@ ll.delfirst()
 ll.traverse()
 ll.delLast()
 ll.traverse()
-
-
-
-
-
 class Node:
   def __init__(self, data):
       self.data = data
       self.next = None
-
-
 class Linkedlist:
   def __init__(self):
       self.head = None
